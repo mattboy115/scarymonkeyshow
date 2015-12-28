@@ -53,6 +53,11 @@ body {
     text-shadow: 2px 2px 4px black;
 }
 
+.section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
 /* Nav
 _______________________________________________*/
 .navbar {
