@@ -76,13 +76,11 @@ _______________________________________________*/
 }
 
 .nav-content {
-    visibility: hidden;
-    transition: 0;
+    display: none;
 }
 
 .nav li:hover .nav-content {
-    visibility: visible;
-    transition: 0;
+    display: block;
 }
 
 /* Images
