@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Irken';
+    src: url(../fonts/Irken.ttf);
+}
+
+@font-face {
+    font-family: 'Invader';
+    src: url(../fonts/Invader.ttf);
+}
+
+/* General Content
+_______________________________________________*/
+
+body {
+	background-image: url('../images/background.png');
+	background-color: #2D043B;
+	background-attachment: fixed;
+}
+
+.wrapper {
+    border: black solid 3px;
+    background-color: #514A52;
+    box-shadow: 0 3px 100px #00FF00;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.site_banner {
+    width: 100%;
+}
+
+/* Nav
+_______________________________________________*/
+.navbar {
+    width: 100%;
+    background-color: #422652;
+    border: none;
+    border-top: 3px solid #2D043B;
+    border-bottom: 3px solid #2D043B;
+    border-radius: 0;
+    color: #514A52;
+}
+
+.navbar li {
+    font-family: 'Invader';
+    font-size: 2em;
+    letter-spacing: 1px;
+    transition: 300ms;
+}
+
+.navbar li:hover {
+    background-color: #58326d;
+    transition: 300ms;
+}
+
+.nav-content {
+    position: absolute;
+    overflow: hidden;
+    background-color: #58326d;
+}
+
+.nav-content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-content ul li {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-size: 1.1em;
+    color: white;
+}
+
+.nav-content li:hover {
+    background-color: #422652
+}
+
+.nav-content {
+    visibility: hidden;
+    transition: 0;
+}
+
+.nav li:hover .nav-content {
+    visibility: visible;
+    transition: 0;
+}
+
+/* Images
+_______________________________________________*/
+
+/* Footer
+_______________________________________________*/
