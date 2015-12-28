@@ -19,9 +19,10 @@ body {
 
 .wrapper {
     border: black solid 3px;
+    border-bottom: none;
+    border-top: none;
     background-color: #514A52;
     box-shadow: 0 3px 100px #00FF00;
-    margin-top: 8px;
     padding: 0;
 }
 
@@ -74,6 +75,22 @@ body {
 
 .section .text_link {
     font-size: 1.3em;
+}
+
+.other_areas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.other_areas ul a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.other_areas ul a:hover {
+    text-shadow: 2px 2px 2px limegreen;
+    transition: 200ms;
 }
 
 /* Nav
