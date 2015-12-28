@@ -29,6 +29,30 @@ body {
     width: 100%;
 }
 
+.section {
+	width: 100%;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+    border-radius: 20px;
+	background-color: #66005A;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: sans-serif;
+	color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.section hr {
+    border-bottom: 1px solid #2D043B;
+    margin: 1em 0;
+}
+
+.section h2 {
+    font-family: 'Invader';
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px black;
+}
+
 /* Nav
 _______________________________________________*/
 .navbar {
@@ -70,20 +94,28 @@ _______________________________________________*/
     padding-left: .5em;
     padding-right: .5em;
     font-size: 1.1em;
-    letter-spacing: 1px;
     color: white;
 }
 
+.nav-content ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
 .nav-content li:hover {
-    background-color: #422652
+    background-color: #422652;
+    transition: 300ms;
 }
 
 .nav-content {
     display: none;
+    transition: 300ms;
 }
 
 .nav li:hover .nav-content {
     display: block;
+    transition: 300ms;
     z-index: 9999;
 }
 
@@ -96,12 +128,25 @@ aside {
     background-color: #808080;
 	border: solid #2D043B;
 	border-width: 3px 12px 12px 3px;
-	height: 800px;
-	width: 230px;
-	margin-right: 20px;
-	margin-top: 30px;
-	padding: 10px;
+	width: 100%;
+	padding: 15px;
 	font-family: sans-serif;
+}
+
+#paypal form {
+    text-align: center;
+}
+
+aside h2 {
+    font-family: 'Invader';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    font-size: 1.4em;
 }
 
 /* Footer
@@ -111,8 +156,7 @@ footer {
     background-color: #422652;
     border-top: 3px solid #2D043B;
     margin-top: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     text-align: center;
     color: white;
 }
