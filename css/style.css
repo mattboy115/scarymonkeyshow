@@ -43,6 +43,7 @@ _______________________________________________*/
 
 .navbar li {
     font-family: 'Invader';
+    text-shadow: 1px 1px 1px black;
     font-size: 2em;
     letter-spacing: 1px;
     transition: 300ms;
@@ -57,6 +58,7 @@ _______________________________________________*/
     position: absolute;
     overflow: hidden;
     background-color: #58326d;
+    width: 10em;
 }
 
 .nav-content ul {
@@ -68,6 +70,7 @@ _______________________________________________*/
     padding-left: .5em;
     padding-right: .5em;
     font-size: 1.1em;
+    letter-spacing: 1px;
     color: white;
 }
 
