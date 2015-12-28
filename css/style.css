@@ -72,6 +72,10 @@ body {
     width: 100%;
 }
 
+.section .text_link {
+    font-size: 1.3em;
+}
+
 /* Nav
 _______________________________________________*/
 .navbar {
@@ -150,6 +154,7 @@ aside {
 	width: 100%;
 	padding: 15px;
 	font-family: sans-serif;
+    margin-bottom: 30px;
 }
 
 #paypal form {
@@ -174,7 +179,6 @@ footer {
     width: 100%;
     background-color: #422652;
     border-top: 3px solid #2D043B;
-    margin-top: 30px;
     padding: 15px;
     text-align: center;
     color: white;
