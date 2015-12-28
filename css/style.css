@@ -43,7 +43,7 @@ _______________________________________________*/
 
 .navbar li {
     font-family: 'Invader';
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #222;
     font-size: 2em;
     letter-spacing: 1px;
     transition: 300ms;
