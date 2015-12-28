@@ -37,6 +37,7 @@ body {
 	background-color: #66005A;
 	padding-left: 15px;
 	padding-right: 15px;
+    padding-bottom: 15px;
 	font-family: sans-serif;
 	color: #ffffff;
     margin-bottom: 30px;
@@ -54,8 +55,21 @@ body {
 }
 
 .section p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.2em;
+}
+
+.section p a {
+    text-decoration: none;
+    color: green;
+}
+
+.section p a:hover {
+    color: limegreen;
+}
+
+.image_container img {
+    width: 100%;
 }
 
 /* Nav
