@@ -90,7 +90,7 @@ body {
 
 .other_areas ul a:hover {
     color: limegreen;
-    text-shadow: 0 0 10px #00FF00;
+    text-shadow: 0 0 15px #1aff1a;
     transition: 200ms;
 }
 
