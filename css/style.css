@@ -89,7 +89,8 @@ body {
 }
 
 .other_areas ul a:hover {
-    text-shadow: 2px 2px 2px limegreen;
+    color: limegreen;
+    text-shadow: 0 0 10px #00FF00;
     transition: 200ms;
 }
 
