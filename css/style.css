@@ -42,6 +42,7 @@ body {
 	font-family: sans-serif;
 	color: #ffffff;
     margin-bottom: 30px;
+    overflow: auto;
 }
 
 .section hr {
