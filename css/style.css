@@ -93,6 +93,11 @@ body {
     margin-bottom: 10px;
 }
 
+.item:hover {
+    background-color: #222;
+    transition: 200ms;
+}
+
 .other_areas ul {
     list-style-type: none;
     padding: 0;
@@ -189,6 +194,11 @@ _______________________________________________*/
     border: solid 3px #2D043B;
     border-width: 3px 12px 12px 3px;
     margin-bottom: 20px;
+}
+
+.info_buttons:hover {
+    -webkit-filter: brightness(1.2);
+    -webkit-transition: all 200ms ease;
 }
 
 /* Side Bar
