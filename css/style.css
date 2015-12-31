@@ -83,6 +83,16 @@ body {
     font-size: 1.3em;
 }
 
+.item {
+    border: 3px solid purple;
+    border-radius: 20px;
+    background-color: #111;
+    padding: 15px;
+    padding-top: 0;
+    box-shadow: 3px 3px 5px #222;
+    margin-bottom: 10px;
+}
+
 .other_areas ul {
     list-style-type: none;
     padding: 0;
