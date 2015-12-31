@@ -56,6 +56,11 @@ body {
     text-shadow: 2px 2px 4px black;
 }
 
+.section h3 {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 2em;
+}
+
 .section p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2em;
@@ -173,12 +178,13 @@ _______________________________________________*/
 
 /* Side Bar
 _______________________________________________*/
-aside {
+aside.side_bar {
     background-color: #808080;
 	border: solid #2D043B;
 	border-width: 3px 12px 12px 3px;
 	width: 100%;
 	padding: 15px;
+    padding-top: 0;
 	font-family: sans-serif;
     margin-bottom: 30px;
 }
@@ -199,6 +205,18 @@ h2 span {
     font-size: 1.4em;
 }
 
+.side_bar p {
+    color: #222;
+}
+
+.side_bar a {
+    color: green;
+}
+
+.side_bar a:hover {
+    color: limegreen;
+}
+
 /* Footer
 _______________________________________________*/
 footer {
@@ -216,5 +234,9 @@ _______________________________________________*/
 @media screen and (max-width: 767px) {
     .nav li:hover .nav-content {
         display: none;
+    }
+
+    .side_bar section {
+        text-align: center;
     }
 }
