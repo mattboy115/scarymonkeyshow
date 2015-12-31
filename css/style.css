@@ -86,6 +86,11 @@ body {
 .other_areas ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+
+.other_areas li {
+    margin-bottom: 10px;
 }
 
 .other_areas ul a {
@@ -205,6 +210,11 @@ h2 span {
     font-size: 1.4em;
 }
 
+.side_bar form {
+    text-align: center;
+    margin: 1em;
+}
+
 .side_bar p {
     color: #222;
 }
@@ -231,6 +241,11 @@ footer {
 
 /* Media Queries
 _______________________________________________*/
+@media screen and (max-width: 990px) {
+    #minimoose {
+        margin-left: 10%;
+    }
+}
 @media screen and (max-width: 767px) {
     .nav li:hover .nav-content {
         display: none;
@@ -238,5 +253,20 @@ _______________________________________________*/
 
     .side_bar section {
         text-align: center;
+    }
+
+    #minimoose {
+        margin-left: 2%;
+    }
+
+    .other_areas div ul li {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section h2 {
+        text-align: center;
+        font-size: 2.5em;
     }
 }
