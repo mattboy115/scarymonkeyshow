@@ -203,11 +203,20 @@ _______________________________________________*/
 
 .float_right {
     float: right;
-    clear: both;
     margin-left: 4px;
+    margin-bottom: 3px;
+    border: 1px solid violet;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: purple;
+}
+
+.float_left {
+    float: left;
+    margin-right: 10px;
     margin-bottom: 1px;
     border: 1px solid violet;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 2px;
     background-color: purple;
 }
