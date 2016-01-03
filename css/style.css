@@ -201,6 +201,27 @@ _______________________________________________*/
     -webkit-transition: all 200ms ease;
 }
 
+.float_right {
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    border: 1px solid violet;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: purple;
+}
+
+.float_left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    border: 1px solid violet;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: purple;
+}
+
+
 /* Side Bar
 _______________________________________________*/
 aside.side_bar {
@@ -261,9 +282,34 @@ footer {
 
 /* Media Queries
 _______________________________________________*/
+@media screen and (max-width: 1200px) {
+    .image_row {
+        text-align: center;
+    }
+
+    .image_row div {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 45%;
+        text-align: center;
+    }
+
+    .image_row div img {
+        width: 100%;
+        clear: both;
+    }
+}
+
 @media screen and (max-width: 990px) {
     #minimoose {
         margin-left: 10%;
+    }
+
+    .image_box div {
+        width: 45%;
+        text-align: center;
     }
 }
 @media screen and (max-width: 767px) {
@@ -282,11 +328,68 @@ _______________________________________________*/
     .other_areas div ul li {
         text-align: center;
     }
+
+    .float_right {
+        float: none;
+        margin: 0;
+        border: 1px solid violet;
+        border-radius: 7px;
+        padding: 2px;
+        background-color: purple;
+    }
+
+    .float_left {
+        float: none;
+        margin: 0;
+        border: 1px solid violet;
+        border-radius: 7px;
+        padding: 2px;
+        background-color: purple;
+    }
+
+    .image_box {
+        text-align: center;
+    }
+
+    .image_row div {
+        display: block;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .image_row div img {
+        max-width: 50%;
+        min-width: 250px;
+        clear: both;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .section h2 {
         text-align: center;
         font-size: 2.5em;
+    }
+
+    .float_right {
+        float: none;
+        margin: 0;
+        border: 1px solid violet;
+        border-radius: 7px;
+        padding: 2px;
+        background-color: purple;
+    }
+
+    .float_left {
+        float: none;
+        margin: 0;
+        border: 1px solid violet;
+        border-radius: 7px;
+        padding: 2px;
+        background-color: purple;
+    }
+
+    .image_box {
+        text-align: center;
     }
 }
