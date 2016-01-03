@@ -201,6 +201,17 @@ _______________________________________________*/
     -webkit-transition: all 200ms ease;
 }
 
+.float_right {
+    float: right;
+    clear: both;
+    margin-left: 4px;
+    margin-bottom: 1px;
+    border: 1px solid violet;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: purple;
+}
+
 /* Side Bar
 _______________________________________________*/
 aside.side_bar {
