@@ -84,18 +84,31 @@ body {
 }
 
 .item {
-    border: 3px solid purple;
+    border: 3px solid blue;
     border-radius: 20px;
     background-color: #111;
     padding: 15px;
     padding-top: 0;
     box-shadow: 3px 3px 5px #222;
     margin-bottom: 10px;
+    overflow: auto;
 }
 
 .item:hover {
     background-color: #222;
     transition: 200ms;
+}
+
+.item img {
+    margin-top: 7px;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.item p small {
+    color: grey;
+    font-size: .75em;
 }
 
 .other_areas ul {
@@ -177,12 +190,6 @@ _______________________________________________*/
 
 .nav-content {
     display: none;
-    transition: 300ms;
-}
-
-.nav li:hover .nav-content {
-    display: block;
-    transition: 300ms;
     z-index: 9999;
 }
 

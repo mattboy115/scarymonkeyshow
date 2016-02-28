@@ -177,14 +177,9 @@ _______________________________________________*/
 
 .nav-content {
     display: none;
-    transition: 300ms;
-}
-
-.nav li:hover .nav-content {
-    display: block;
-    transition: 300ms;
     z-index: 9999;
 }
+
 
 /* Images
 _______________________________________________*/
