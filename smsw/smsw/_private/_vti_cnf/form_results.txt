@@ -1,0 +1,20 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|02 Mar 2004 02:47:40 -0000
+vti_extenderversion:SR|6.0.2.5516
+vti_nexttolasttimemodified:TR|02 Mar 2004 02:47:40 -0000
+vti_author:SR|?
+vti_nosourcecontrol:SR|True
+vti_modifiedby:SR|LEVIATHAN\\Master Charlie
+vti_timecreated:TR|18 Dec 2002 05:43:09 -0000
+vti_backlinkinfo:VX|popquiz.htm results.htm
+vti_syncofs_ftp.thescarymonkeyshow.com\:21/htdocs:TW|18 Dec 2002 23:03:00 -0000
+vti_syncwith_ftp.thescarymonkeyshow.com\:21/htdocs:TR|18 Dec 2002 05:43:10 -0000
+vti_syncwith_ftp.thescarymonkeyshow.com\:21/public_html:TR|18 Dec 2002 04:43:10 -0000
+vti_syncofs_ftp.thescarymonkeyshow.com\:21/public_html:TW|08 Apr 2002 03:31:00 -0000
+vti_syncwith_thescarymonkeyshow.com\:80:TR|02 Mar 2004 02:47:40 -0000
+vti_syncwith_www.thescarymonkeyshow.com\:80:TR|02 Mar 2004 02:47:40 -0000
+vti_syncwith_thescarymonkeyshow.com\:21:TR|17 Dec 2002 21:43:10 -0000
+vti_syncofs_thescarymonkeyshow.com\:21:TW|16 Jul 2004 02:16:00 -0000
+vti_syncwith_localhost\\c\:\\documents and settings\\charlie\\my documents\\my webs\\smsw/c\:/documents and settings/charlie/my documents/my webs/smsw:TR|18 Dec 2002 05:43:10 -0000
+vti_cacheddtm:TX|16 Jul 2004 09:15:13 -0000
+vti_filesize:IR|29

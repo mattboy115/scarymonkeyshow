@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>Instant Quiz Results</title>
+</head>
+
+<body bgcolor="#454545" text="#99FF99" link="#FF9933" vlink="#00CC66" alink="#800080">
+
+<p align="center"><strong><font face="Arial"><!--webbot bot="HTMLMarkup" startspan --><script src="solution.js">
+</script>
+<!--webbot
+bot="HTMLMarkup" endspan --><big>ZIM Quiz Results</big></font></strong></p>
+<div align="center"><center>
+
+<table border="0" cellspacing="0" cellpadding="0" height="83">
+  <tr>
+    <td width="100%" height="83"><form method="POST" name="result" action="_derived/nortbots.htm" onSubmit="location.href='_derived/nortbots.htm';return false;" webbot-action="--WEBBOT-SELF--" webbot-onSubmit>
+      <!--webbot bot="SaveResults" startspan S-Label-Fields="TRUE"
+      U-File="_private/form_results.txt" S-Format="TEXT/CSV" --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot
+      bot="SaveResults" endspan i-checksum="43374" --><table border="0" width="100%" cellpadding="0" height="58">
+        <tr>
+          <td height="1" bgcolor="#D3FFA8"><strong><font face="Arial" color="#000000">Grade
+            in percentage:</font></strong></td>
+          <td height="1"><div align="right"><p><input type="text" name="T2" size="8"></td>
+        </tr>
+      </table>
+    </form>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<form method="POST" action="_derived/nortbots.htm" onSubmit="location.href='_derived/nortbots.htm';return false;" webbot-action="--WEBBOT-SELF--" webbot-onSubmit>
+  <!--webbot bot="SaveResults" startspan U-File="_private/form_results.txt"
+  S-Format="TEXT/CSV" S-Label-Fields="TRUE" --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="1"><!--webbot
+  bot="SaveResults" endspan i-checksum="43406" --><div
+  align="center"><center><p><!--webbot bot="HTMLMarkup" startspan --><script>
+var wrong=0
+var totalquestions=10
+for (e=0;e<=2;e++)
+document.result[e].value=""
+
+var results=document.cookie.split(";")
+for (n=0;n<=results.length-1;n++){
+if (results[n].charAt(1)=='q')
+parse=n
+
+}
+
+var incorrect=results[parse].split("=")
+incorrect=incorrect[1].split("/")
+if (incorrect[incorrect.length-1]=='b')
+incorrect=""
+document.result[0].value=totalquestions-incorrect.length+"/"+totalquestions
+document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
+for (temp=0;temp<incorrect.length;temp++)
+document.result[1].value+=incorrect[temp]+", "
+
+function showsolution(){
+var win2=window.open("","win2","width=200,height=350")
+win2.focus()
+win2.document.open()
+win2.document.write('<title>Solution</title>')
+win2.document.write('<body bgcolor="#FFFFFF">')
+win2.document.write('<center><h3>Solution to Quiz</h3></center>')
+win2.document.write('<center><font face="Arial">')
+for (i=1;i<=totalquestions;i++){
+for (temp=0;temp<incorrect.length;temp++){
+if (i==incorrect[temp])
+wrong=1
+}
+if (wrong==1){
+win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
+wrong=0
+}
+else
+win2.document.write("Question "+i+"="+correctchoices[i]+"<br>")
+}
+
+
+win2.document.write('</center></font>')
+win2.document.write("<h5>Note: The solutions in red are the ones to the questions you had incorrectly answered.</h5>")
+win2.document.close()
+}
+</script><!--webbot
+  bot="HTMLMarkup" endspan --><input type="button" value="Take the quiz again" name="B1"
+  onClick="history.go(-1)"> &nbsp;<input type="button" value="Answers" name="B2"
+  onClick="window.location='quizanswers.htm'"> </p>
+  </center></div>
+</form>
+
+<p align="center"><a href="http://wsabstract.com"><strong><small><font face="Arial"><small>Quiz
+powered By Website Abstraction</small></font></small></strong></a></p>
+</body>
+</html>
