@@ -1,0 +1,11 @@
+var correctchoices=new Array()
+correctchoices[1]='c'
+correctchoices[2]='a'
+correctchoices[3]='b'
+correctchoices[4]='d'
+correctchoices[5]='d'
+correctchoices[6]='c'
+correctchoices[7]='b'
+correctchoices[8]='b'
+correctchoices[9]='c'
+correctchoices[10]='b'
